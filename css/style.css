@@ -1,12 +1,29 @@
+/***** css rules utility-btn *****/
+.utility-btn {
+    position: absolute;
+    top: 1vh;
+    right: 0.5vw;
+    display: flex;
+    gap: 0 0.5vw;
+}
+
+.utility-btn button {
+    background-color: #4a4a4a;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+}
+
 /***** css rules main *****/
 
 main {
-    height: calc(100vh - 17.5vh );
+    height: calc(100vh - 10vh);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 2vh 0.5vw;
-    margin: 5vh 5vw 2.5vh;
+    padding: 5vh 5vw 2.5vh;
+    position: relative;
 }
 
 .image-wrapper {
@@ -28,4 +45,3 @@ nav {
     height: 10vh;
     background-color: aqua;
 }
-
