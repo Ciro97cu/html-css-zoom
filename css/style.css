@@ -17,7 +17,7 @@
 /***** css rules main *****/
 
 main {
-    height: calc(100vh - 5vh);
+    height: calc(100vh - 7vh);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -42,10 +42,9 @@ main {
 
 /***** css rules nav bar *****/
 nav {
-    height: 5vh;
+    height: 7vh;
     background-color: #222222;
     display: flex;
-    align-items: center;   
 }
 
 nav > * {
@@ -54,21 +53,21 @@ nav > * {
 
 .mic-vid, .useful-resources {
     display: flex;
-    align-items: center;
-    margin-left: 0.5vw;
-    gap: 0 1vw;
 }
 
 .mic-vid > i ,.useful-resources > i{
     font-size: 0.5rem;
+    line-height: 5vh;
 }
 
 .mic, .vid, .invite, .partecipants, .polling, .share, .chat, .record, .rooms, .more {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     background-color: #222222;
     border: none;
+    padding: 0  1vw;
 }
 
 .mic i, .vid i, .invite i, .partecipants i, .polling i, .share i, .chat i, .record i, .rooms i, .more i {
@@ -83,7 +82,7 @@ nav > * {
 }
 
 .end > button {
-    background-color: #4a4a4a;
+    background-color: #222222;
     line-height: 5vh;
     border: none;
     padding: 0 1vw;
