@@ -60,14 +60,8 @@ nav > * {
     justify-content: center;
 }
 
-.mic-vid > i ,.useful-resources > i{
-    font-size: 0.5rem;
-    align-self: center;
-}
-
 .mic, .vid, .invite, .partecipants, .polling, .share, .chat, .record, .rooms, .more {
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: transparent;
@@ -75,9 +69,13 @@ nav > * {
     padding: 0  1vw;
 }
 
-.mic i, .vid i, .invite i, .partecipants i, .polling i, .share i, .chat i, .record i, .rooms i, .more i {
-    font-size: 1.3rem;
+.mic i:first-child, .vid i:first-child, .invite i:first-child, .partecipants i:first-child, .polling i:first-child, .share i:first-child, .chat i:first-child, .record i:first-child, .rooms i:first-child, .more i:first-child {
+    font-size: 1.5rem;
     padding-bottom: 0.5vh;
+}
+
+.mic i:last-child, .vid i:last-child, .invite i:last-child, .partecipants i:last-child, .polling i:last-child, .share i:last-child, .chat i:last-child, .record i:last-child, .rooms i:last-child, .more i:last-child{
+    padding-left: 0.5vw;
 }
 
 .end {
