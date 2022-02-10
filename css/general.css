@@ -1,4 +1,4 @@
-/***** css rules star selector *****/
+/***** css rules star selector + body *****/
 * {
     margin: 0;
     padding: 0;
@@ -16,6 +16,10 @@ body {
 
 .c-white {
     color: white;
+}
+
+.c-green {
+    color: #4bc800;
 }
 
 /***** css rules for background-color *****/
