@@ -45,14 +45,19 @@ nav {
     height: 7vh;
     background-color: #222222;
     display: flex;
+    justify-content: center;
 }
 
 nav > * {
     flex-grow: 1;
 }
 
-.mic-vid, .useful-resources {
+.mic-vid, .useful-resources, .end {
     display: flex;
+}
+
+.useful-resources {
+    justify-content: center;
 }
 
 .mic-vid > i ,.useful-resources > i{
@@ -76,7 +81,6 @@ nav > * {
 }
 
 .end {
-    display: flex;
     justify-content: flex-end;
 }
 
