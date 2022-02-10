@@ -48,7 +48,7 @@ nav {
 }
 
 nav > * {
-    width: calc(100% / 3);
+    flex-grow: 1;
 }
 
 .mic-vid, .useful-resources {
@@ -57,7 +57,7 @@ nav > * {
 
 .mic-vid > i ,.useful-resources > i{
     font-size: 0.5rem;
-    line-height: 5vh;
+    align-self: center;
 }
 
 .mic, .vid, .invite, .partecipants, .polling, .share, .chat, .record, .rooms, .more {
@@ -65,7 +65,7 @@ nav > * {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #222222;
+    background-color: transparent;
     border: none;
     padding: 0  1vw;
 }
@@ -78,12 +78,10 @@ nav > * {
 .end {
     display: flex;
     justify-content: flex-end;
-    height: 100%;
 }
 
 .end > button {
-    background-color: #222222;
-    line-height: 5vh;
+    background-color: transparent;
     border: none;
     padding: 0 1vw;
 }
