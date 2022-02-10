@@ -26,3 +26,9 @@ body {
 .bgc-black {
     background-color: black;
 }
+
+/***** css rules hover *****/
+.utility-btn button:hover {
+    box-shadow: inset 0 0 0 50pc rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}

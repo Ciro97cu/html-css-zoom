@@ -63,7 +63,7 @@ nav > * {
     font-size: 0.5rem;
 }
 
-.mic, .invite, .partecipants, .polling, .share, .chat, .record, .rooms, .more {
+.mic, .vid, .invite, .partecipants, .polling, .share, .chat, .record, .rooms, .more {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -71,7 +71,7 @@ nav > * {
     border: none;
 }
 
-.mic i, .invite i, .partecipants i, .polling i, .share i, .chat i, .record i, .rooms i, .more i {
+.mic i, .vid i, .invite i, .partecipants i, .polling i, .share i, .chat i, .record i, .rooms i, .more i {
     font-size: 1.3rem;
     padding-bottom: 0.5vh;
 }
