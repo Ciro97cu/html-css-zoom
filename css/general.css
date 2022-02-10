@@ -6,5 +6,19 @@
 }
 
 body {
-    background-color: rebeccapurple;
+    font-size: 16px;
+}
+
+/***** css rules for color *****/
+.c-red {
+    color: red;
+}
+
+.c-white {
+    color: white;
+}
+
+/***** css rules for background-color *****/
+.bgc-black {
+    background-color: black;
 }

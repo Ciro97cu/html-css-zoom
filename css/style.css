@@ -6,16 +6,26 @@ main {
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 2vh 0.5vw;
-    background-color: brown;
     margin: 5vh 5vw 2.5vh;
 }
 
 .image-wrapper {
-    background-color: aquamarine;
     width: calc(100% / 7 - 0.5vw);
+    background-image: url(https://picsum.photos/seed/picsum/500/450);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
 }
 
+.image-wrapper p {
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+/***** css rules nav bar *****/
 nav {
     height: 10vh;
     background-color: aqua;
 }
+
