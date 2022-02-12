@@ -28,7 +28,7 @@ main {
 
 .image-wrapper {
     width: calc(100% / 7 - 0.5vw);
-    background-image: url(https://picsum.photos/seed/picsum/500/450);
+    background-image: url(https://picsum.photos/seed/picsum/600/450);
     background-size: cover;
     background-position: center;
     display: flex;
