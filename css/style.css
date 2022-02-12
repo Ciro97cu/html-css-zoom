@@ -20,24 +20,24 @@ main {
     height: calc(100vh - 7vh);
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 2vh 0.5vw;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5vh 0.5vw;
     padding: 7vh 5vw 3.5vh;
+    position: relative;
+    overflow-y: auto;
+}
+
+.img-wrapper {
     position: relative;
 }
 
-.image-wrapper {
-    width: calc(100% / 7 - 0.5vw);
-    background-image: url(https://picsum.photos/seed/picsum/600/450);
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: flex-end;
-}
-
-.image-wrapper p {
-    padding: 5px;
-    background-color: rgba(0, 0, 0, 0.4);
+.description-img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
 }
 
 /***** css rules nav bar *****/
